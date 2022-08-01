@@ -1,0 +1,21 @@
+{
+  "name": "use-debounce-fetch",
+  "version": "1.0.0",
+  "description": "\"Debounce fetch and cancel previous calls\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "promise",
+    "debounce",
+    "fetch"
+  ],
+  "author": "Yehuda Moskowitz <ymoskowitzdev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0"
+  }
+}
