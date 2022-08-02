@@ -1,7 +1,7 @@
 {
   "name": "use-debounce-fetch",
-  "version": "0.0.2",
-  "description": "\"Debounce fetch and cancel previous calls\"",
+  "version": "0.0.3",
+  "description": "\"Debounce fetch and abort earlier pending requests\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\""
@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "react": "^17.0.2"
+    "react": "^18.2.0"
   }
 }

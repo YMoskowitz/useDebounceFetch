@@ -1,6 +1,6 @@
 # use-debounce-fetch
 
-A React Hook to debounce fetch ajax calls and aborts previous pending request made by the hook.
+A React Hook to debounce fetch ajax calls and abort previous pending requests made by this hook.
 
 ## Features
 -  Debounce duplicate requests such as when searching or double clicking submit button
