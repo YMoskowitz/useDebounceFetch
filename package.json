@@ -1,6 +1,6 @@
 {
   "name": "use-debounce-fetch",
-  "version": "0.0.3",
+  "version": "1.0.3",
   "description": "\"Debounce fetch and abort earlier pending requests\"",
   "main": "index.js",
   "scripts": {
