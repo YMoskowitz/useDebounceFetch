@@ -1,6 +1,6 @@
 {
   "name": "use-debounce-fetch",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "\"Debounce fetch and abort earlier pending requests\"",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,9 @@
     "url": "https://github.com/ymoskowitz/useDebounceFetch"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
-    "react": "^18.2.0"
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
   }
 }
