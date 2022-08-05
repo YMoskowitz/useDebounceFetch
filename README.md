@@ -1,6 +1,6 @@
 # use-debounce-fetch
 
-A React Hook to debounce fetch ajax calls and abort previous pending requests made by this hook.
+A React Hook to debounce fetch requests and abort previous pending requests made by this hook.
 
 ## Features
 -  Debounce duplicate requests such as when searching or double clicking submit button
@@ -54,3 +54,6 @@ export const RepoSearch  = ()=>{
 * **`wait`** `[number=0]` The number of milliseconds to delay.
 * **`options`** `[object={}]` Lodash.debounce options object. See [_.debounce](https://lodash.com/docs/#debounce)
 * **`fetchFunc`** `[Function=fetch]` The fetch library (function) to use under the hood. Defaults to native fetch. (Needs to reject with errorcode 20 when request is aborted for this hook to swallow those errors)
+
+### Peer dependencies
+*	react >=16.8.2
