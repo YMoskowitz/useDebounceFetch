@@ -13,7 +13,7 @@ const useDebounceFetch = (wait = 0, options = {}, fetchFunc = fetch)=>{
 	)
 
 	const debounceFetch = function(url, options){
-		cancel();	// cancel previous request immediately
+		cancel();	// abort previous request immediately
         const newController = new AbortController();    // also reset controller immediately, so caller can call cancel() from outside
         ref.current = newController;
         

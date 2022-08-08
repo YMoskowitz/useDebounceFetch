@@ -3,8 +3,8 @@
 A React Hook to debounce fetch requests and abort previous pending requests made by this hook.
 
 ## Features
--  Debounce duplicate requests such as when searching or double clicking submit button
--  Cancel pending requests made previously using this hook
+-  Debounce duplicate requests such as when searching
+-  Abort pending requests made previously using this hook
 -  Swallows error "The user aborted a request" for previously aborted requests
 -  Eliminates need for a debounced input
 

@@ -1,7 +1,7 @@
 {
   "name": "use-debounce-fetch",
-  "version": "1.0.5",
-  "description": "\"Debounce fetch and abort earlier pending requests\"",
+  "version": "1.0.7",
+  "description": "\"Debounce fetch and abort previous pending requests\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\""
@@ -10,9 +10,12 @@
     "react",
     "hooks" ,
     "hook" ,
-    "promise",
     "debounce",
     "fetch" ,
+    "input" ,
+    "promise",
+    "abort" ,
+    "cancel" ,
     "javascript"
   ],
   "author": "Yehuda Moskowitz <ymoskowitzdev@gmail.com",
