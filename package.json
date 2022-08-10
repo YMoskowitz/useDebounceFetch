@@ -1,6 +1,6 @@
 {
   "name": "use-debounce-fetch",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "\"Debounce fetch and abort previous pending requests\"",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,18 @@
     "hook" ,
     "debounce",
     "fetch" ,
+    "use" ,
+    "api" ,
+    "request" ,
     "input" ,
     "promise",
     "abort" ,
     "cancel" ,
-    "javascript"
+    "javascript" ,
+    "limit" ,
+    "limiting" ,
+    "throttle" ,
+    "throttling"
   ],
   "author": "Yehuda Moskowitz <ymoskowitzdev@gmail.com",
   "license": "ISC",
