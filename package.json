@@ -1,6 +1,6 @@
 {
   "name": "use-debounce-fetch",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "\"Debounce fetch and abort previous pending requests\"",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "hooks" ,
     "hook" ,
     "debounce",
+    "debounced",
     "fetch" ,
     "use" ,
     "api" ,
